@@ -41,5 +41,3 @@ var options = {
 request.post(options, function(error, response, body){
     console.log(body);
 });
-
-module.exports = lemapi;
