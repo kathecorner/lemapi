@@ -7,7 +7,7 @@ app.use(express.static("./public"));
 
 
 app.listen(PORT, console.log("a server is running..."));
-
+/*
 var request = require('request');
 var options = {
   uri: "https://kyc-test.adyen.com/lem/v2/legalEntities",
@@ -50,4 +50,4 @@ var options = {
 };
 request.post(options, function(error, response, body){
     console.log(body);
-});
+});*/

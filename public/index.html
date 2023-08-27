@@ -11,8 +11,25 @@
     <H4>LEM API Demo Aug2023</H4>
         <link rel="stylesheet" href="style.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+          
+            
+
         <div class="form-control">
-            <input type="text" name="name" class="task-input" placeholder="田中浩" />
+            <div>
+                <label>Legal Entigy Type</label><br>
+                <label for="r_male">Individual <input id="r_male" type="radio" name="gender" value="individual"></label>
+                <label for="r_female">Organization <input id="r_female" type="radio" name="gender" value="organization"></label>
+            </div>
+            Street<input type="text" name="name" class="task-input" placeholder="北海道札幌市北区麻布町１−１" />
+            PostalCode<input type="text" name="name" class="task-input" placeholder="1234567" />
+            Contry<input type="text" name="name" class="task-input" placeholder="JP" />
+            PhoneNumber<input type="text" name="name" class="task-input" placeholder="+81234567880" />
+            DateOfBirth YYYY-MM-DD <input type="text" name="name" class="task-input" placeholder="1980-11-05" />
+            Name Kana<input type="text" name="name" class="task-input" placeholder="タナカヒロシ" />
+            Name Kanji<input type="text" name="name" class="task-input" placeholder="田中浩" />
+            
+
             <button type="submit" class="btn submit-btn">Submit</button>
         </div>
     </form>
