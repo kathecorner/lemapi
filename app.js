@@ -6,7 +6,7 @@ app.use(express.json());
 app.use(express.static("./public"));
 
 
-app.listen(PORT, console.log("a server is running..."));
+app.listen(process.env.PORT || PORT, console.log("a server is running..."));
 
 var request = require('request');
 var options = {
