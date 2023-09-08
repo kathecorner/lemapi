@@ -32,7 +32,7 @@ var options = {
     },
     "localization": {
         "fullName": {
-            "ja-Kana": "サクラタナカ単価",
+            "ja-Kana": "サクラタナカ",
             "ja-Hani": "桜田中"
         }
     }
